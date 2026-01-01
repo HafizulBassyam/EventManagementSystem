@@ -21,7 +21,7 @@ class EventStorage {
                     {
                         id: 1,
                         name: 'Convocation Ceremony',
-                        date: '2026-01-31',
+                        date: '2026-02-31',
                         location: 'DATC UiTM,Shah Alam',
                         status: 'Upcoming',
                         createdAt: new Date().toISOString()
@@ -37,7 +37,7 @@ class EventStorage {
                     {
                         id: 3,
                         name: 'Family Dinner',
-                        date: '2026-02-01',
+                        date: '2026-02-26',
                         location: 'UiTM Hotel',
                         status: 'Upcoming',
                         createdAt: new Date().toISOString()
@@ -323,3 +323,4 @@ if (eventStorage.testLocalStorage()) {
     alert('Warning: localStorage is not available. Events may not be saved.');
 
 }
+
