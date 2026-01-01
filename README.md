@@ -1,1 +1,1 @@
-# Even tManagement System
+# Event Management System
